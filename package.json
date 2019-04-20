@@ -1,0 +1,80 @@
+{
+  "name": "openfin-react-concise",
+  "version": "0.20.10",
+  "private": true,
+  "dependencies": {
+    "chalk": "2.4.2",
+    "dotenv": "6.0.0",
+    "dotenv-expand": "4.2.0",
+    "express": "^4.16.4",
+    "hadouken-js-adapter": "^0.39.1",
+    "morgan": "^1.9.0",
+    "rimraf": "^2.6.2",
+    "tcp-port-used": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/history": "^4.7.2",
+    "@types/i18next": "^12.1.0",
+    "@types/i18next-browser-languagedetector": "^2.0.1",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.5",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.0.5",
+    "@types/redux-actions": "^2.3.2",
+    "@types/redux-mock-store": "^1.0.0",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "history": "^4.7.2",
+    "i18next": "=15.0.7",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^2.0.1",
+    "pkg": "^4.3.5",
+    "react-i18next": "=10.6.1",
+    "react-openfin-mat-impl": "^0.70.40",
+    "react-redux": "^6.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "shelljs": "^0.8.3",
+    "shortid": "^2.2.13",
+    "typescript": "^3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-openfin": "node scripts/start.openfin.js",
+    "build": "react-scripts build",
+    "serve": "node scripts/server.js",
+    "serve-openfin": "node scripts/server.openfin.js",
+    "package": "node scripts/package.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx,js,jsx,mjs}",
+      "!src/**/*.d.ts",
+      "!src/serviceWorker.js",
+      "!src/i18n.ts",
+      "!src/index.tsx"
+    ]
+  },
+  "pkg": {
+    "scripts": [
+      "scripts/**/*.js",
+      "config/**/*.js"
+    ],
+    "assets": [
+      "build/**/*",
+      "package.json"
+    ]
+  }
+}
