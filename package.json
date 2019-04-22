@@ -3,14 +3,6 @@
   "version": "0.20.10",
   "private": true,
   "dependencies": {
-    "@types/classnames": "^2.2.7",
-    "@types/history": "^4.7.2",
-    "@types/i18next": "^12.1.0",
-    "@types/i18next-browser-languagedetector": "^2.0.1",
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.13.5",
-    "@types/react": "^16.8.13",
-    "@types/react-dom": "^16.8.4",
     "history": "^4.7.2",
     "i18next": "=15.0.7",
     "i18next-browser-languagedetector": "^3.0.1",
@@ -19,18 +11,17 @@
     "react-dom": "^16.8.6",
     "react-i18next": "=10.6.1",
     "react-openfin-mat-impl": "^0.70.40",
-    "shortid": "^2.2.13",
-    "react-openfin-scripts": "^0.20.26-beta"
+    "react-openfin-scripts": "^0.20.28-beta"
   },
   "scripts": {
     "start": "react-openfin-scripts start",
-    "start-openfin": "node scripts/start.openfin.js",
+    "start-openfin": "react-openfin-scripts start.openfin",
     "build": "react-openfin-scripts build",
-    "serve": "node scripts/server.js",
-    "serve-openfin": "node scripts/server.openfin.js",
-    "package": "node scripts/package.js",
+    "serve": "react-openfin-scripts server",
+    "serve-openfin": "react-openfin-scripts server.openfin",
+    "package": "react-openfin-scripts package",
     "test": "react-openfin-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-openfin-scripts  eject"
   },
   "browserslist": [
     ">0.2%",
@@ -38,15 +29,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{ts,tsx,js,jsx,mjs}",
-      "!src/**/*.d.ts",
-      "!src/serviceWorker.js",
-      "!src/i18n.ts",
-      "!src/index.tsx"
-    ]
-  },
   "pkg": {
     "scripts": [
       "scripts/**/*.js",
