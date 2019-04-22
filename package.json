@@ -17,8 +17,8 @@
     "start": "react-openfin-scripts start",
     "start-openfin": "react-openfin-scripts start.openfin",
     "build": "react-openfin-scripts build",
-    "serve": "react-openfin-scripts server",
-    "serve-openfin": "react-openfin-scripts server.openfin",
+    "serve": "react-openfin-scripts serve",
+    "serve-openfin": "react-openfin-scripts serve.openfin",
     "package": "react-openfin-scripts package",
     "test": "react-openfin-scripts test",
     "eject": "react-openfin-scripts eject"
