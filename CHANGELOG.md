@@ -1,2 +1,2 @@
-## [0.20.10] 2019-04-20
+## [0.40.20] 2019-04-23
 - First initial stable release
