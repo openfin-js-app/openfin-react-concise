@@ -21,7 +21,8 @@
     "serve-openfin": "react-openfin-scripts serve.openfin",
     "package": "react-openfin-scripts package",
     "test": "react-openfin-scripts test",
-    "eject": "react-openfin-scripts eject"
+    "eject": "react-openfin-scripts eject",
+    "test-coveralls": "react-openfin-scripts test --coverage --coverageReporters=text-lcov | coveralls"
   },
   "browserslist": [
     ">0.2%",
@@ -34,5 +35,8 @@
       "build/**/*",
       "package.json"
     ]
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.3"
   }
 }
