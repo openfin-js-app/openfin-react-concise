@@ -1,6 +1,8 @@
 # Openfin react starter `concise version`
 
 [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+[![Build Status](https://travis-ci.com/openfin-js-app/openfin-react-concise.svg?branch=master)](https://travis-ci.com/openfin-js-app/openfin-react-concise)
+[![Coverage Status](https://coveralls.io/repos/github/openfin-js-app/openfin-react-concise/badge.svg?branch=master)](https://coveralls.io/github/openfin-js-app/openfin-react-concise?branch=master)
 
 A concise version of openfin react starter
 
