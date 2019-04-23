@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard routes default routes 1`] = `
+Array [
+  Object {
+    "component": [Function],
+    "icon": [Function],
+    "navbarName": "accessibility.navbar",
+    "path": "/dashboard/accessibility",
+    "sidebarName": "accessibility.sidebar",
+  },
+  Object {
+    "component": [Function],
+    "icon": [Function],
+    "navbarName": "configuration.navbar",
+    "path": "/dashboard/config",
+    "sidebarName": "configuration.sidebar",
+  },
+  Object {
+    "component": [Function],
+    "icon": [Function],
+    "navbarName": "report.navbar",
+    "path": "/dashboard/report",
+    "sidebarName": "report.sidebar",
+  },
+]
+`;

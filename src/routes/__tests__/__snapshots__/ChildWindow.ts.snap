@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChildWindow routes default routes 1`] = `
+Array [
+  Object {
+    "component": [Function],
+    "icon": [Function],
+    "navbarName": "accessibility.navbar",
+    "path": "/childWindow/accessibility",
+    "sidebarName": "accessibility.sidebar",
+  },
+  Object {
+    "component": [Function],
+    "icon": [Function],
+    "navbarName": "report.navbar",
+    "path": "/childWindow/report",
+    "sidebarName": "report.sidebar",
+  },
+]
+`;
