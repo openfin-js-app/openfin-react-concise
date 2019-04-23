@@ -8,8 +8,6 @@ import hist from "../../utils/history";
 
 import ClientPrefix from './ClientPrefix';
 
-declare const jsdom:any;
-
 describe('ClientPrefix comp',()=>{
 
     let shallow;
@@ -40,10 +38,6 @@ describe('ClientPrefix comp',()=>{
 
         const pathname = '/dashboard/accessibility';
 
-        jsdom.reconfigure({url:`http://localhost${pathname}`});
-
-        expect(window.location.href.toLowerCase()).toMatchSnapshot();
-
         const wrapper = mount(
             <ReactOpenfin>
                 <ClientPrefix
@@ -65,10 +59,6 @@ describe('ClientPrefix comp',()=>{
     it('dashboard view-one',()=>{
 
         const pathname = '/dashboard/view-one';
-
-        jsdom.reconfigure({url:`http://localhost${pathname}`});
-
-        expect(window.location.href.toLowerCase()).toMatchSnapshot();
 
         const wrapper = mount(
             <ReactOpenfin>
@@ -92,10 +82,6 @@ describe('ClientPrefix comp',()=>{
 
         const pathname = '/dashboard/view-two';
 
-        jsdom.reconfigure({url:`http://localhost${pathname}`});
-
-        expect(window.location.href.toLowerCase()).toMatchSnapshot();
-
         const wrapper = mount(
             <ReactOpenfin>
                 <ClientPrefix
@@ -118,10 +104,6 @@ describe('ClientPrefix comp',()=>{
 
         const pathname = '/childWindow/view-one';
 
-        jsdom.reconfigure({url:`http://localhost${pathname}`});
-
-        expect(window.location.href.toLowerCase()).toMatchSnapshot();
-
         const wrapper = mount(
             <ReactOpenfin>
                 <ClientPrefix
@@ -143,10 +125,6 @@ describe('ClientPrefix comp',()=>{
     it('childWindow view-two',()=>{
 
         const pathname = '/childWindow/view-two';
-
-        jsdom.reconfigure({url:`http://localhost${pathname}`});
-
-        expect(window.location.href.toLowerCase()).toMatchSnapshot();
 
         const wrapper = mount(
             <ReactOpenfin>
