@@ -18,13 +18,14 @@
     "start": "react-openfin-scripts start",
     "start-openfin": "react-openfin-scripts start.openfin",
     "build": "react-openfin-scripts build",
-    "build-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts build",
     "serve": "react-openfin-scripts serve",
-    "serve-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts serve",
     "serve-openfin": "react-openfin-scripts serve.openfin",
     "package": "react-openfin-scripts package",
     "test": "react-openfin-scripts test",
     "eject": "react-openfin-scripts eject",
+    "build-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts build",
+    "serve-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts serve",
+    "serve-openfin-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts serve.openfin",
     "test-coveralls": "react-openfin-scripts test --coverage --coverageReporters=text-lcov | coveralls"
   },
   "browserslist": [
