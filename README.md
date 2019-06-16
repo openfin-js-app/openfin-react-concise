@@ -9,7 +9,7 @@ A concise version of openfin react starter
 ![](https://albertleigh.github.io/openfin-react-latest/img/screenshoot.gif)
 
 * Design with simplicity in mind
-* Based on create-react-app@2.1.8
+* Based on create-react-app@3.0.1
 * Integrate Jest test framework
 * Integrate Material-UI@4.0.2
 * Support basic frameless window features: move, minimize, maximize, close and resize
