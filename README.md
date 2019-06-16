@@ -11,7 +11,7 @@ A concise version of openfin react starter
 * Design with simplicity in mind
 * Based on create-react-app@2.1.8
 * Integrate Jest test framework
-* Integrate Material-UI@3.9.3
+* Integrate Material-UI@4.0.2
 * Support basic frameless window features: move, minimize, maximize, close and resize
 * Support general sidebar
 * Support general primary/success/error/info/warning snackbar
@@ -27,7 +27,7 @@ A concise version of openfin react starter
 [LICENSE]: ./LICENSE.md
 [CHANGELOG]: ./CHANGELOG.md
 
-[version-badge]: https://img.shields.io/badge/version-0.40.20-green.svg
+[version-badge]: https://img.shields.io/badge/version-1.0.0-green.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-green.svg
 
 
