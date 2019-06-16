@@ -1,6 +1,6 @@
 {
   "name": "openfin-react-concise",
-  "version": "1.0.0-beta.27",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "cross-env": "^5.2.0",
@@ -11,8 +11,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-i18next": "=10.11.0",
-    "react-openfin-mat-impl": "1.0.0-beta.25",
-    "react-openfin-scripts": "1.0.0-beta.27"
+    "react-openfin-mat-impl": "1.0.0",
+    "react-openfin-scripts": "1.0.0"
   },
   "scripts": {
     "start": "react-openfin-scripts start",
