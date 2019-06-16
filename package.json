@@ -1,17 +1,18 @@
 {
   "name": "openfin-react-concise",
-  "version": "0.40.20",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "cross-env": "^5.2.0",
     "history": "^4.7.2",
-    "i18next": "=15.0.7",
+    "i18next": "=17.0.1",
     "i18next-browser-languagedetector": "^3.0.1",
     "i18next-xhr-backend": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-i18next": "=10.6.1",
-    "react-openfin-mat-impl": "^0.70.40",
-    "react-openfin-scripts": "^0.40.20"
+    "react-i18next": "=10.11.0",
+    "react-openfin-mat-impl": "1.0.0",
+    "react-openfin-scripts": "1.0.0"
   },
   "scripts": {
     "start": "react-openfin-scripts start",
@@ -22,6 +23,9 @@
     "package": "react-openfin-scripts package",
     "test": "react-openfin-scripts test",
     "eject": "react-openfin-scripts eject",
+    "build-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts build",
+    "serve-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts serve",
+    "serve-openfin-uat": "cross-env REACT_APP_ENV=uat react-openfin-scripts serve.openfin",
     "test-coveralls": "react-openfin-scripts test --coverage --coverageReporters=text-lcov | coveralls"
   },
   "browserslist": [
