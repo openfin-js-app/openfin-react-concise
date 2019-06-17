@@ -1,6 +1,6 @@
 {
   "name": "openfin-react-concise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "cross-env": "^5.2.0",
