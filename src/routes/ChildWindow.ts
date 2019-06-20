@@ -5,6 +5,8 @@ import { RouteItem, ReportView } from 'react-openfin-mat-impl';
 
 import Accessibility from '../views/Accessibility/Accessibility';
 
+import { mapToPublicPathname } from './utils';
+
 const childRoutes:RouteItem[]=[
     {
         path:'/childWindow/accessibility',
@@ -22,4 +24,4 @@ const childRoutes:RouteItem[]=[
     },
 ];
 
-export default childRoutes;
+export default childRoutes.map(mapToPublicPathname);
